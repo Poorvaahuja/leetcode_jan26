@@ -6,3 +6,7 @@ Given the five integers m, n, maxMove, startRow, startColumn, return the number 
 
 <img width="389" alt="image" src="https://github.com/Poorvaahuja/leetcode_jan26/assets/122693422/f1ca9da2-8d98-40cb-adc2-2ccc1df6d41e">
 
+## Q2 construct the longest new string
+You are given three integers x, y, and z.
+You have x strings equal to "AA", y strings equal to "BB", and z strings equal to "AB". You want to choose some (possibly all or none) of these strings and concatenate them in some order to form a new string. This new string must not contain "AAA" or "BBB" as a substring.
+Return the maximum possible length of the new string.
