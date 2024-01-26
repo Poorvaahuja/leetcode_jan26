@@ -12,3 +12,12 @@ You have x strings equal to "AA", y strings equal to "BB", and z strings equal t
 Return the maximum possible length of the new string.
 
 <img width="391" alt="image" src="https://github.com/Poorvaahuja/leetcode_jan26/assets/122693422/bc334856-8d33-4d5c-87d1-8cd383fc3351">
+
+## Q3 short encoding of words
+A valid encoding of an array of words is any reference string s and array of indices indices such that:
+words.length == indices.length
+The reference string s ends with the '#' character.
+For each index indices[i], the substring of s starting from indices[i] and up to (but not including) the next '#' character is equal to words[i].
+Given an array of words, return the length of the shortest reference string s possible of any valid encoding of words.
+
+<img width="379" alt="image" src="https://github.com/Poorvaahuja/leetcode_jan26/assets/122693422/070f60d0-a410-41a6-acca-dc0f496eea5c">
