@@ -21,3 +21,10 @@ For each index indices[i], the substring of s starting from indices[i] and up to
 Given an array of words, return the length of the shortest reference string s possible of any valid encoding of words.
 
 <img width="379" alt="image" src="https://github.com/Poorvaahuja/leetcode_jan26/assets/122693422/070f60d0-a410-41a6-acca-dc0f496eea5c">
+
+## Q4 special permutations
+You are given a 0-indexed integer array nums containing n distinct positive integers. A permutation of nums is called special if:
+For all indexes 0 <= i < n - 1, either nums[i] % nums[i+1] == 0 or nums[i+1] % nums[i] == 0.
+Return the total number of special permutations. As the answer could be large, return it modulo 109 + 7.
+
+<img width="366" alt="image" src="https://github.com/Poorvaahuja/leetcode_jan26/assets/122693422/1691a041-77e4-4830-beff-a25d8b983c75">
